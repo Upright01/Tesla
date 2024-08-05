@@ -1,0 +1,400 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+/* Navbar */
+.nav{
+    align-content: center;
+    /* margin-top: 80px;    */
+}
+.menuList{
+   margin-inline: 20%;
+   align-content: center;
+   font-weight: 600;
+   font-size: small;
+}
+
+
+/* Main */
+.model-3{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-Model-3-Desktop-LHD-v2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-y: center; */
+    background-position: 0px;
+}
+.model-price{
+    border-bottom: 1px solid black;
+}
+
+#vehicleToHover{
+    display: inline-block;
+    position: relative;
+}
+
+#vehicleToPopup {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 7px;
+    background-color: #555;
+    color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* .decision{
+    height: 50px;
+    width: 50%;
+    align-items: center;
+    margin: 280px 0px 0px 280px;
+    gap: 20px;
+    padding-inline: 5%;      
+} */
+
+ #ClickButton{
+    width: 100%;
+    margin-top: 250px;
+    /* border: 2px solid red; */
+    padding-inline: 5%;
+    padding-left: 350px;  
+    font-weight: bold;
+    font-size: x-small;
+}
+.decision-box{
+    width: 400px;
+    height: 35px;
+    align-content: center;
+    font-weight: 600;
+    font-size: small;   
+}
+.model-y{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-Model-Y-Desktop-Global.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+    background-position: -0px;
+    /* border: 2px solid red; */
+    
+}
+.OrderDrive{
+    margin: 300px 0px 0px 0px;
+    gap: 20px;
+    padding-inline: 30%;      
+}
+.modelY-span{
+    border-bottom: 1px solid black;
+}
+.model-x{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-Model-X-Desktop-v2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -0px;
+    /* background-position: bottom; */
+}
+.modelX-href{
+    border-bottom: 1px solid black;
+}
+.model-s{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-Model-S-Desktop-v2.avif);
+    background-size: cover;
+    /* border: 2px solid red; */
+    /* background-position: bottom 0px; */
+    background-position: -0px;
+}
+.modelS-href{
+    border-bottom: 1px solid white;
+}
+.CyberTruck{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-Cybertruck-Desktop.avif);
+    background-size: cover;
+    /* border: 2px solid red; */
+    /* background-position: bottom 0px; */
+    background-position: -0px;
+}
+
+.Cyber-learnmore{
+    width: 13rem;
+    /* border-color: rgb(150, 146, 146); */
+    background-color: black;
+    border: 1px solid rgb(144, 142, 142);
+    font-weight: bold;
+    font-size: x-small;
+}
+.CyberTruck-btn{
+    /* border: 2px solid orange; */
+    padding-inline: 26%;
+}
+.CyberOrdernow{
+    width: 13rem;
+    height: 3rem;
+    /* border-color: rgb(150, 146, 146); */
+    background-color: black;
+    border-top: 2px solid rgb(144, 142, 142);
+    border-left: 0;
+    border-right: 0;
+    font-weight: bold;
+    font-size: x-small;
+}
+
+/* Box-F */
+.SolarPanel{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-SolarPanels-01-Desktop.avif);
+    background-size: cover;
+    /* border: 2px solid red; */
+    /* background-position: bottom 0px; */
+    background-position: -0px;
+}
+.SolarPanel-href{
+    border-bottom: 1px solid white;
+}
+#Click-Button{
+    width: 100%;
+    margin-top: 320px;
+    /* border: 2px solid red; */
+    /* padding-inline: 5%; */
+    padding-left: 350px;  
+    font-weight: bold;
+    font-size: x-small;
+}
+#SolarOrder{
+    width: 220px;
+    font-weight: 600;
+    font-size: small;
+}
+
+/* Box-G */
+.SolarRoof{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-SolarRoof-Desktop-Global.avif);
+    background-size: cover;
+    /* border: 2px solid red; */
+    background-position: -0px;
+}
+
+/* Box-H */
+.PowerWall{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-Powerwall-01-Desktop.avif);
+    background-size: cover;
+    /* border: 2px solid red; */
+    background-position: -0px;
+
+}
+
+/* Box-I */
+.Accessories{
+    width: 100%;
+    height: 35rem;
+    background-image: url(./Assets/Homepage-Accessories-Desktop-NA-APAC.avif);
+    background-size: cover;
+    /* border: 2px solid red; */
+    background-position: -0px;
+}
+#ShopNow{
+    margin-top: 23rem;
+}
+#ShopButton{
+    width: 200px;
+    /* margin-top: 50px; */
+    /* border: 2px solid red; */
+    /* padding-inline: 5%; */
+    padding-left: 350px;  
+    font-weight: bold;
+    font-size: x-small;
+}
+.Footer{
+    background-color: black;
+}
+.whyTesla, .footernav{
+    /* font-family: 'Red Hat Display'; */
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-size: x-small;
+    color: rgb(219, 212, 212);
+    margin-inline: 300px;
+    padding: 20px;
+}
+.whyTesla-href{
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+.footer-href{
+    color: rgb(196, 192, 192);
+}
+/* -------------------------------------- */
+/* Demo Page */
+
+.content{
+    margin-inline: 250px;
+    margin-top: 70px;
+    font-size: small;
+}
+form{
+    font-weight: 500;
+}
+.scheduleDemo {
+    font-size: small;
+    font-weight: 600;
+    background-color: rgba(15, 93, 237, 0.911);
+    color: white;
+    text-decoration: none;
+    padding-block: 10px;
+    padding-inline: 70px;
+    border-radius: 5px;
+}
+.DemoSpan{
+    border-bottom: 1px solid black;
+}
+.footernav{
+    margin-inline: 250px;
+}
+.TeslaAssist{
+    float: right;
+    right: 50px;
+    position: sticky;
+    bottom: 20px;
+}
+/* ------------------------------- */
+/* Order Page */
+
+.OrderNavbar{
+    padding-block: 10px;
+    background-color: rgba(255, 255, 255, 0.968);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1; 
+}
+#carouselExampleAutoplaying{
+    width: 65%;
+    position: fixed;
+    top: 0px;
+    transform: translateY(-50px);
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    /*---------------------------------------  */
+}
+.description{
+    margin-top: 100px;
+    float: right;
+    width: 33%;
+    padding: 20px;
+    margin-left: 10px;
+    font-size: small;
+    
+}
+.carousel-item{
+   margin-top: -40px;
+}
+
+hr{
+    transform: translateY(-20px);
+}
+section{
+    font-size: small;
+}
+.gasSaving{
+    border-bottom: 1px solid black;
+}
+
+.wspec-button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(227, 220, 220);
+    background-color: white;
+    margin-block: 10px;
+}
+.wspec-button :focus {
+    background-color: yellow;
+}
+.Rear-Wheel{
+    margin-right: 170px;
+}
+.Rear-Wheel2{
+    margin-right: 100px;
+}
+.Rear-Wheel3{
+    margin-right: 110px;
+}
+.Rear-Wheel4{
+    margin-right: 110px;
+}
+#feature-button{
+    width: 150px;
+    height: 35px;
+    border: 0;
+    font-weight: 500;
+    margin-inline: 30%;
+    margin-top: 20px;
+}
+.paint-head{
+    margin-top: 100px;
+}
+.paintBall{
+    height: 40px;
+    width: 40px;
+    margin-inline: 5px;
+}
+#PB-button{
+    border-radius: 50px;
+    border: 0;
+    background-color: transparent;
+}
+.detail-span{
+    font-weight: 500;
+}
+.wheels{
+    margin-inline: 100px;
+}
+.wheel-paragraph{
+    margin-inline: 50px;
+    padding-inline: 50px;
+}
+.interior{
+    margin-top: 100px;
+}
+#Selfdrive-font{
+    font-size: 1rem;
+}
+
+.last-paragraph{
+    display: inline-block;
+}
+.lastBox{
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+}
+.descript-footer{
+    margin-top: 100px;
+}
+.mark-icon{
+    color: rgb(255, 175, 47);
+}
+.last-href{
+    border-bottom: 1px solid black;
+}
+#LastButton{
+    width: 250px;
+    margin-inline: 50px;
+    border: 0;
+    font-weight: 500;
+    padding-block: 10px;
+    border-radius: 10px;
+    background-color: rgb(28, 106, 224);
+    color: white;
+}
