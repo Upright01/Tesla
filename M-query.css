@@ -1,7 +1,35 @@
-@media screen and (min-width: 700px;){
-    .nav{
+@media screen and (max-width: 1150px){
+    .menuList, .icon{
         display: none;
     }
-
+    .TeslaModel{
+        margin-top: 20px;
+    }
+    .footer-menu{
+        flex-wrap: wrap;
+    }
+    .demo-footernav{
+        flex-wrap: wrap;
+    }  
+    .insure-footernav{
+        flex-wrap: wrap;
+    }
 }
+
+@media screen and (max-width:990px){
+    .description{
+        float: none;
+        width: 80%;
+        margin: auto;
+        margin-top: 25rem;
+    }
+    #carouselExampleAutoplaying{
+        width: 100%;
+        top: 0px;
+    }
+    
+}
+
+    
+
     

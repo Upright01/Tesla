@@ -21,64 +21,34 @@ body{
     background-image: url(./Assets/Homepage-Model-3-Desktop-LHD-v2.avif);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position-y: center; */
-    background-position: 0px;
+    background-position: center;
 }
 .model-price{
     border-bottom: 1px solid black;
 }
 
-#vehicleToHover{
-    display: inline-block;
-    position: relative;
-}
-
-#vehicleToPopup {
-    display: none;
-    position: absolute;
-    top: 30px;
-    left: 7px;
-    background-color: #555;
-    color: #fff;
-    padding: 8px;
-    border-radius: 5px;
-}
-
-/* .decision{
-    height: 50px;
-    width: 50%;
-    align-items: center;
-    margin: 280px 0px 0px 280px;
-    gap: 20px;
-    padding-inline: 5%;      
-} */
-
  #ClickButton{
-    width: 100%;
-    margin-top: 250px;
-    /* border: 2px solid red; */
-    padding-inline: 5%;
-    padding-left: 350px;  
+    width: 45%;
     font-weight: bold;
     font-size: x-small;
+    margin: auto;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center; 
 }
-.decision-box{
-    width: 400px;
-    height: 35px;
-    align-content: center;
+#OrderButton{
+    width: 200px;
     font-weight: 600;
-    font-size: small;   
+    font-size: small;
 }
+
 .model-y{
     width: 100%;
     height: 35rem;
     background-image: url(./Assets/Homepage-Model-Y-Desktop-Global.avif);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: bottom; */
-    background-position: -0px;
-    /* border: 2px solid red; */
-    
+    background-position:center;  
 }
 .OrderDrive{
     margin: 300px 0px 0px 0px;
@@ -94,8 +64,7 @@ body{
     background-image: url(./Assets/Homepage-Model-X-Desktop-v2.avif);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: -0px;
-    /* background-position: bottom; */
+    background-position: center;
 }
 .modelX-href{
     border-bottom: 1px solid black;
@@ -105,9 +74,7 @@ body{
     height: 35rem;
     background-image: url(./Assets/Homepage-Model-S-Desktop-v2.avif);
     background-size: cover;
-    /* border: 2px solid red; */
-    /* background-position: bottom 0px; */
-    background-position: -0px;
+    background-position: center;
 }
 .modelS-href{
     border-bottom: 1px solid white;
@@ -117,34 +84,9 @@ body{
     height: 35rem;
     background-image: url(./Assets/Homepage-Cybertruck-Desktop.avif);
     background-size: cover;
-    /* border: 2px solid red; */
-    /* background-position: bottom 0px; */
-    background-position: -0px;
+    background-position: center;
 }
 
-.Cyber-learnmore{
-    width: 13rem;
-    /* border-color: rgb(150, 146, 146); */
-    background-color: black;
-    border: 1px solid rgb(144, 142, 142);
-    font-weight: bold;
-    font-size: x-small;
-}
-.CyberTruck-btn{
-    /* border: 2px solid orange; */
-    padding-inline: 26%;
-}
-.CyberOrdernow{
-    width: 13rem;
-    height: 3rem;
-    /* border-color: rgb(150, 146, 146); */
-    background-color: black;
-    border-top: 2px solid rgb(144, 142, 142);
-    border-left: 0;
-    border-right: 0;
-    font-weight: bold;
-    font-size: x-small;
-}
 
 /* Box-F */
 .SolarPanel{
@@ -152,26 +94,10 @@ body{
     height: 35rem;
     background-image: url(./Assets/Homepage-SolarPanels-01-Desktop.avif);
     background-size: cover;
-    /* border: 2px solid red; */
-    /* background-position: bottom 0px; */
-    background-position: -0px;
+    background-position: center;
 }
 .SolarPanel-href{
     border-bottom: 1px solid white;
-}
-#Click-Button{
-    width: 100%;
-    margin-top: 320px;
-    /* border: 2px solid red; */
-    /* padding-inline: 5%; */
-    padding-left: 350px;  
-    font-weight: bold;
-    font-size: x-small;
-}
-#SolarOrder{
-    width: 220px;
-    font-weight: 600;
-    font-size: small;
 }
 
 /* Box-G */
@@ -180,7 +106,6 @@ body{
     height: 35rem;
     background-image: url(./Assets/Homepage-SolarRoof-Desktop-Global.avif);
     background-size: cover;
-    /* border: 2px solid red; */
     background-position: -0px;
 }
 
@@ -190,9 +115,7 @@ body{
     height: 35rem;
     background-image: url(./Assets/Homepage-Powerwall-01-Desktop.avif);
     background-size: cover;
-    /* border: 2px solid red; */
     background-position: -0px;
-
 }
 
 /* Box-I */
@@ -209,9 +132,6 @@ body{
 }
 #ShopButton{
     width: 200px;
-    /* margin-top: 50px; */
-    /* border: 2px solid red; */
-    /* padding-inline: 5%; */
     padding-left: 350px;  
     font-weight: bold;
     font-size: x-small;
@@ -219,28 +139,39 @@ body{
 .Footer{
     background-color: black;
 }
-.whyTesla, .footernav{
-    /* font-family: 'Red Hat Display'; */
+.whyTesla{
+    width: 45%;
+    padding-top: 20px;
     font-weight: 600;
     letter-spacing: 0.3px;
     font-size: x-small;
     color: rgb(219, 212, 212);
-    margin-inline: 300px;
-    padding: 20px;
+    margin-inline: auto;
+}
+.footernav{
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 50px;
+    padding: 0px 20px 10px 10px ;
+    font-size: x-small;   
+}
+.footer-menu{
+    list-style: none;
 }
 .whyTesla-href{
     color: white;
     border-bottom: 1px solid white;
-
 }
 .footer-href{
     color: rgb(196, 192, 192);
+    margin-inline: 5px;
 }
 /* -------------------------------------- */
 /* Demo Page */
 
 .content{
-    margin-inline: 250px;
+    width: 60%;
+    margin: auto;
     margin-top: 70px;
     font-size: small;
 }
@@ -248,20 +179,26 @@ form{
     font-weight: 500;
 }
 .scheduleDemo {
+    width: 30%;
     font-size: small;
     font-weight: 600;
     background-color: rgba(15, 93, 237, 0.911);
     color: white;
     text-decoration: none;
     padding-block: 10px;
-    padding-inline: 70px;
+    /* padding-inline: 70px; */
     border-radius: 5px;
+    border: 2px solid red;
 }
 .DemoSpan{
     border-bottom: 1px solid black;
 }
-.footernav{
-    margin-inline: 250px;
+.demo-footernav{
+    border: 2px solid;
+    width: 50%;
+    margin: auto;
+    font-size: x-small;
+    font-weight: 500;
 }
 .TeslaAssist{
     float: right;
@@ -397,4 +334,110 @@ section{
     border-radius: 10px;
     background-color: rgb(28, 106, 224);
     color: white;
+}
+/* --------------------------------- */
+/* INSURANCE */
+
+.insurance{
+    width: 100%;
+    height: 40rem;
+    background-image: url(./Assets/insurance-img.avif);
+    background-position: center;
+    background-size: cover;
+}
+.insurance-icons{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: smaller;
+    margin-top: 400px;
+}
+.PoweredBy{
+    width: 80px;
+}
+.section-A{
+    width: 40%;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.getInsurance{
+    background-color: white;
+    font-size: small;
+    font-weight: 500;
+    padding-inline: 40px;
+    padding-block: 10px;
+    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.getInsurance:hover{
+    color: white;
+    background-color: black;
+}
+.section-B{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+.section-C{
+    margin-top: 100px;
+}
+.Img-section{
+    width: 100%;
+}
+.easy-access{
+    background-color: black;
+    color: white;
+}
+.details{
+    width: 80%;
+    margin-inline: auto;
+}
+.last-container{
+    background-color: black;
+}
+.last-container-child{
+    width: 30%;
+    margin-inline: auto;
+    text-align: center;
+    padding-top: 150px;
+    /* background-color: black; */
+    color: white;
+}
+.learnmore-qoute{
+    width: 50%;
+    margin-inline: auto;
+    /* border: 1px solid red; */
+}
+.Lmore-qoute{
+    margin-block: 7px;
+    padding-block: 5px;
+    color: white;
+    background-color: black;
+    border-color:white;
+    border-radius: 5px;
+}
+.Lmore-qoute:hover{
+    background-color: white;
+    color: black;
+}
+#insurance-footer{
+    background-color: black;
+}
+.footer-paragraph{
+    width: 50%;
+    margin-inline: auto;
+    padding-top: 50px;
+    font-size: smaller;
+    text-align: center;
+    color: white;
+}
+.insure-footernav{
+    width: 50%;
+    margin-inline: auto;
+    font-size: x-small;
+    padding: 10px;
 }
